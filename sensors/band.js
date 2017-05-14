@@ -1,5 +1,5 @@
 
-const send = require('./lib/send')
+const send = require('../lib/send')
 
 async function fire() {
   const data = await send('/event/fire')

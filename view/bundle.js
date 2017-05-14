@@ -8020,7 +8020,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/a302/Documents/dev/github/embeded-project/src/app.vue"
+Component.options.__file = "C:\\Users\\nupa\\Documents\\GitHub\\embeded-project\\src\\app.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] app.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -8249,11 +8249,17 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
+//
+//
 
 
 exports.default = {
   data: function data() {
-    return {};
+    return {
+      logs: [{ text: 'Fire!!', date: '2017-05-14' }, { text: 'Door open', date: '2017-05-13' }, { text: 'Door close', date: '2017-05-12' }, { text: 'Fire!!', date: '2017-05-11' }, { text: 'Door open', date: '2017-05-10' }]
+    };
   }
 };
 
@@ -8350,7 +8356,7 @@ exports = module.exports = __webpack_require__(0)(true);
 
 
 // module
-exports.push([module.i, "\n.container {\n  width: 100%;\n}\nnav {\n  width: 100%;\n  position: fixed;\n  bottom: 0px;\n}\nsection {\n  max-width: 500px;\n  position: absolute;\n  padding: 20px;\n  left: 50%;\n  margin-left: -250px;\n}\n@media screen and (max-width: 480px) {\nsection {\n    width: 100%;\n    position: absolute;\n    padding: 20px;\n    left: 0px;\n    margin-left: 0px;\n}\n}\nimg {\n  width: 80%;\n  margin: 10%;\n}\n.fade-enter-active,\n.fade-leave-active {\n  transition-property: opacity, padding-top;\n  transition-duration: .3s, .3s;\n}\n.fade-enter,\n.fade-leave-to {\n  opacity: 0;\n  padding-top: 10px;\n}\n", "", {"version":3,"sources":["/Users/a302/Documents/dev/github/embeded-project/src/app.vue"],"names":[],"mappings":";AAAA;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,gBAAgB;EAChB,YAAY;CACb;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,cAAc;EACd,UAAU;EACV,oBAAoB;CACrB;AACD;AACE;IACE,YAAY;IACZ,mBAAmB;IACnB,cAAc;IACd,UAAU;IACV,iBAAiB;CAClB;CACF;AACD;EACE,WAAW;EACX,YAAY;CACb;AACD;;EAEE,0CAA0C;EAC1C,8BAA8B;CAC/B;AACD;;EAEE,WAAW;EACX,kBAAkB;CACnB","file":"app.vue","sourcesContent":[".container {\n  width: 100%;\n}\nnav {\n  width: 100%;\n  position: fixed;\n  bottom: 0px;\n}\nsection {\n  max-width: 500px;\n  position: absolute;\n  padding: 20px;\n  left: 50%;\n  margin-left: -250px;\n}\n@media screen and (max-width: 480px) {\n  section {\n    width: 100%;\n    position: absolute;\n    padding: 20px;\n    left: 0px;\n    margin-left: 0px;\n  }\n}\nimg {\n  width: 80%;\n  margin: 10%;\n}\n.fade-enter-active,\n.fade-leave-active {\n  transition-property: opacity, padding-top;\n  transition-duration: .3s, .3s;\n}\n.fade-enter,\n.fade-leave-to {\n  opacity: 0;\n  padding-top: 10px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "\n.container {\n  width: 100%;\n}\nnav {\n  width: 100%;\n  position: fixed;\n  bottom: 0px;\n}\nsection {\n  max-width: 500px;\n  position: absolute;\n  padding: 20px;\n  left: 50%;\n  margin-left: -250px;\n}\n@media screen and (max-width: 480px) {\nsection {\n    width: 100%;\n    position: absolute;\n    padding: 20px;\n    left: 0px;\n    margin-left: 0px;\n}\n}\nimg {\n  width: 80%;\n  margin: 10%;\n}\n.fade-enter-active,\n.fade-leave-active {\n  transition-property: opacity, padding-top;\n  transition-duration: .3s, .3s;\n}\n.fade-enter,\n.fade-leave-to {\n  opacity: 0;\n  padding-top: 10px;\n}\n", "", {"version":3,"sources":["C:/Users/nupa/Documents/GitHub/embeded-project/src/app.vue"],"names":[],"mappings":";AAAA;EACE,YAAY;CACb;AACD;EACE,YAAY;EACZ,gBAAgB;EAChB,YAAY;CACb;AACD;EACE,iBAAiB;EACjB,mBAAmB;EACnB,cAAc;EACd,UAAU;EACV,oBAAoB;CACrB;AACD;AACE;IACE,YAAY;IACZ,mBAAmB;IACnB,cAAc;IACd,UAAU;IACV,iBAAiB;CAClB;CACF;AACD;EACE,WAAW;EACX,YAAY;CACb;AACD;;EAEE,0CAA0C;EAC1C,8BAA8B;CAC/B;AACD;;EAEE,WAAW;EACX,kBAAkB;CACnB","file":"app.vue","sourcesContent":[".container {\n  width: 100%;\n}\nnav {\n  width: 100%;\n  position: fixed;\n  bottom: 0px;\n}\nsection {\n  max-width: 500px;\n  position: absolute;\n  padding: 20px;\n  left: 50%;\n  margin-left: -250px;\n}\n@media screen and (max-width: 480px) {\n  section {\n    width: 100%;\n    position: absolute;\n    padding: 20px;\n    left: 0px;\n    margin-left: 0px;\n  }\n}\nimg {\n  width: 80%;\n  margin: 10%;\n}\n.fade-enter-active,\n.fade-leave-active {\n  transition-property: opacity, padding-top;\n  transition-duration: .3s, .3s;\n}\n.fade-enter,\n.fade-leave-to {\n  opacity: 0;\n  padding-top: 10px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -8364,7 +8370,7 @@ exports = module.exports = __webpack_require__(0)(true);
 
 
 // module
-exports.push([module.i, "\n.time-wrap {\n  text-align: center;\n}\n.mu-time-picker,\n.mu-text-field {\n  width: 80px;\n}\n.mu-checkbox {\n  top: 5px;\n}\n.radio-wrap {\n  width: 108px;\n  margin: 0 auto;\n}\n.label {\n  margin-bottom: 10px;\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n}\n", "", {"version":3,"sources":["/Users/a302/Documents/dev/github/embeded-project/src/alarm.vue"],"names":[],"mappings":";AAAA;EACE,mBAAmB;CACpB;AACD;;EAEE,YAAY;CACb;AACD;EACE,SAAS;CACV;AACD;EACE,aAAa;EACb,eAAe;CAChB;AACD;EACE,oBAAoB;EACpB,gCAAgC;EAChC,gBAAgB;CACjB","file":"alarm.vue","sourcesContent":[".time-wrap {\n  text-align: center;\n}\n.mu-time-picker,\n.mu-text-field {\n  width: 80px;\n}\n.mu-checkbox {\n  top: 5px;\n}\n.radio-wrap {\n  width: 108px;\n  margin: 0 auto;\n}\n.label {\n  margin-bottom: 10px;\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "\n.time-wrap {\n  text-align: center;\n}\n.mu-time-picker,\n.mu-text-field {\n  width: 80px;\n}\n.mu-checkbox {\n  top: 5px;\n}\n.radio-wrap {\n  width: 108px;\n  margin: 0 auto;\n}\n.label {\n  margin-bottom: 10px;\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n}\n", "", {"version":3,"sources":["C:/Users/nupa/Documents/GitHub/embeded-project/src/alarm.vue"],"names":[],"mappings":";AAAA;EACE,mBAAmB;CACpB;AACD;;EAEE,YAAY;CACb;AACD;EACE,SAAS;CACV;AACD;EACE,aAAa;EACb,eAAe;CAChB;AACD;EACE,oBAAoB;EACpB,gCAAgC;EAChC,gBAAgB;CACjB","file":"alarm.vue","sourcesContent":[".time-wrap {\n  text-align: center;\n}\n.mu-time-picker,\n.mu-text-field {\n  width: 80px;\n}\n.mu-checkbox {\n  top: 5px;\n}\n.radio-wrap {\n  width: 108px;\n  margin: 0 auto;\n}\n.label {\n  margin-bottom: 10px;\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -8675,7 +8681,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/a302/Documents/dev/github/embeded-project/src/alarm.vue"
+Component.options.__file = "C:\\Users\\nupa\\Documents\\GitHub\\embeded-project\\src\\alarm.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] alarm.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -8715,7 +8721,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/a302/Documents/dev/github/embeded-project/src/security.vue"
+Component.options.__file = "C:\\Users\\nupa\\Documents\\GitHub\\embeded-project\\src\\security.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] security.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -8755,7 +8761,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/a302/Documents/dev/github/embeded-project/src/sleep.vue"
+Component.options.__file = "C:\\Users\\nupa\\Documents\\GitHub\\embeded-project\\src\\sleep.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] sleep.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -8841,7 +8847,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "security"
     }
-  }, [_vm._v("\n  security\n")])
+  }, [_c('mu-list', _vm._l((_vm.logs), function(log) {
+    return _c('mu-list-item', {
+      attrs: {
+        "title": log.text
+      }
+    }, [_c('span', {
+      slot: "describe"
+    }, [_vm._v(_vm._s(log.date))])])
+  }))], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
