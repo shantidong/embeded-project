@@ -1,9 +1,4 @@
 
-const send = require('../lib/send')
+const util = require('../lib/util')
 
-async function fire() {
-  const data = await send('/event/fire')
-  console.log(data.body)
-}
-
-setInterval(fire, 1000)
+console.log(util.rand(3, 7))
