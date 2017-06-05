@@ -21,10 +21,3 @@ bed.get('/interface', function(req, res){
 var server = bed.listen(3000, function() {
     console.log('Listening on port %d', server.address().port);
 });
-interface.js
-<doctype html>
-<h1>树莓派</h1>  
-<ul>  
-    <li>temperature:<%=temperature%>。C</li>
-    <li>humidity:<%=humidity%>%</li>
-</ul>
