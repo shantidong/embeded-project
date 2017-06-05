@@ -25,6 +25,6 @@ interface.js
 <doctype html>
 <h1>树莓派</h1>  
 <ul>  
-    <li>温度:<%=temperature%>。C</li>
-    <li>湿度:<%=humidity%>%</li>
+    <li>temperature:<%=temperature%>。C</li>
+    <li>humidity:<%=humidity%>%</li>
 </ul>
